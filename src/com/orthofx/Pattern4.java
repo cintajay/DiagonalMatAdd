@@ -24,8 +24,9 @@ public class Pattern4 {
 			star_count=star_count+2;
 		}
 		
-		space_count=n-2;
-		star_count=n;
+		space_count=1; //1		 		
+		star_count=star_count-4; //last value of star_count-2
+		
 		for(int i=0;i<n;i++) {
 			for(int j=0; j<space_count; j++) {
 				System.out.print(" ");
